@@ -1,0 +1,14 @@
+# Dossier généré par Hugo
+public/
+resources/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.log
