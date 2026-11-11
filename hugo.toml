@@ -1,5 +1,5 @@
 baseURL = "https://association-droits-humains.org/"
-languageCode = "fr-fr"
+locale = "fr-FR"
 defaultContentLanguage = "fr"
 title = "Association Droits Humains"
 theme = "PaperMod"
