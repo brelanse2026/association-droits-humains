@@ -37,14 +37,6 @@ enableEmoji = true
   name = "email"
   url = "mailto:contact@association-droits-humains.org"
 
-[[params.socialIcons]]
-  name = "facebook"
-  url = "https://facebook.com/"
-
-[[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
 [[menu.main]]
   identifier = "accueil"
   name = "Accueil"
