@@ -1,3 +1,70 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://association-droits-humains.org/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Association Droits Humains"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  env = "production"
+  description = "Association de défense et de promotion des droits humains"
+  author = "Association Droits Humains"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.assets]
+    favicon = ""
+    disableFingerprinting = true
+
+  [params.homeInfoParams]
+    Title = "Bienvenue sur le site de l'Association Droits Humains"
+    Content = "Nous œuvrons pour la défense et la promotion des droits fondamentaux."
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:contact@association-droits-humains.org"
+
+[[params.socialIcons]]
+  name = "facebook"
+  url = "https://facebook.com/"
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/"
+
+[[menu.main]]
+  identifier = "accueil"
+  name = "Accueil"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "a-propos"
+  name = "À propos"
+  url = "/a-propos/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "actualites"
+  name = "Actualités"
+  url = "/actualites/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 40
