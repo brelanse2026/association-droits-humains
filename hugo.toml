@@ -1,4 +1,4 @@
-baseURL = "https://association-droits-humains.org/"
+baseURL = "https://adhso.netlify.app/"
 locale = "fr-FR"
 defaultContentLanguage = "fr"
 title = "Association Droits Humains"
