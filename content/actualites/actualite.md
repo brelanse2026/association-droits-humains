@@ -2,6 +2,11 @@
 title: "Nos actualités"
 date: 2026-11-13T10:00:00+01:00
 draft: false
+cover:
+  image: "images/couverture-actualite.png"
+  alt: "Image à venir"
+  caption: ""
+  relative: false
 author: "Équipe ADHSO"
 description: "Cette rubrique accueillera prochainement nos actualités : événements, actions de terrain, prises de position et vie de l'association."
 tags: ["actualité"]
